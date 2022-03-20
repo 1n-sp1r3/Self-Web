@@ -1,0 +1,223 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("fischlwp2jpg.jpg");
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: roboto2;
+  src: url(Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: openSans;
+  src: url(OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(Poppins-Regular.otf);
+}
+
+.signUpLogIn {
+  padding-top: 16px;
+  padding-right: 64px;
+  padding-bottom: 16px;
+  text-align: right;
+  background-color: Indigo;
+}
+
+.signUpLogInItem {
+  margin-left: 16px;
+  color: white;
+  text-decoration: none;
+  font-family: poppins;
+}
+
+.logInContainer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid white;
+  border-radius: 16px;
+  width: 1024px;
+  height: 512px;
+  background-color: white;
+}
+
+.logInInfo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-96%, -50%);
+  width: 48%;
+  font-family: roboto2;
+}
+
+.fischlpic {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(44%, -50%);
+  margin-left: 0;
+  margin-top: 2px;
+  border-radius: 16px;
+  overflow: hidden;
+  border-left: 2px solid white;
+}
+
+.SignUpContainer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid white;
+  border-radius: 16px;
+  width: 512px;
+  height: 640px;
+  background-color: white;
+  padding: 16px;
+  text-align: center;
+}
+
+.name{
+  font-family: roboto2;
+  text-align: left;
+  line-height: 32px
+}
+
+.email{
+  font-family: roboto2;
+  text-align: left;
+  line-height: 32px
+}
+
+.password{
+  font-family: roboto2;
+  text-align: left;
+  line-height: 32px
+}
+
+#logInTitle {
+  font-size: 48px;
+  margin-bottom: 0;
+  font-family: poppins;
+  margin-top: 0;
+}
+
+#signUpTitle {
+  font-size: 48px;
+  padding-bottom: 8px;
+  margin: 24px;
+  font-family: poppins;
+}
+
+#name {
+  width: 400px;
+  height: 32px;
+  border-radius: 8px;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  background-color: #f3e6ff;
+  padding-left: 16px;
+  font-size: 16px;
+  border: 1px solid gray;
+  font-family: roboto;
+  text-align: left;
+}
+
+#email {
+  width: 400px;
+  height: 32px;
+  border-radius: 8px;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  background-color: #f3e6ff;
+  padding-left: 16px;
+  font-size: 16px;
+  border: 1px solid gray;
+  font-family: roboto;
+  text-align: left;
+}
+
+#password {
+  width: 400px;
+  height: 32px;
+  border-radius: 8px;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  background-color: #f3e6ff;
+  border: 1px solid gray;
+  padding-left: 16px;
+  font-size: 16px;
+  font-family: roboto;
+  text-align: left;
+}
+
+#cpassword {
+  width: 400px;
+  height: 32px;
+  border-radius: 8px;
+  margin-top: 4px;
+  margin-bottom: 24px;
+  background-color: #f3e6ff;
+  border: 1px solid gray;
+  padding-left: 16px;
+  font-size: 16px;
+  font-family: roboto;
+  text-align: left;
+}
+
+input[type=submit] {
+  background-color: Indigo;
+  margin-top: 18px;
+  opacity: 80%;
+  height: 48px;
+  width: 128px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 16px;
+  font-family: roboto2;
+  margin-bottom: 8px;
+}
+
+#signUpBtn {
+  color: Indigo;
+  font-size: 18px;
+  border: none;
+  border-radius: 16px;
+  font-family: roboto2;
+  text-decoration: none;
+  margin-left: 16px;
+}
+
+#preLogInBtn {
+  color: black;
+  font-size: 18px;
+  border: none;
+  border-radius: 16px;
+  padding-right: 4px;
+  font-family: roboto2;
+  text-decoration: none;
+}
+
+#logInBtn {
+  color: Indigo;
+  font-size: 18px;
+  border: none;
+  border-radius: 16px;
+  font-family: roboto2;
+  text-decoration: none;
+}

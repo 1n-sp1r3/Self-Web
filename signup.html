@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="signUpLogIn">
+      <a href="login.html" class="signUpLogInItem">Log In</a>
+      <a href="signUp.html" class="signUpLogInItem">Sign Up</a>
+    </div>
+    <div class="SignUpContainer">
+        <h1 id="signUpTitle">Sign Up</h1>
+        <form action="main.html" method="post">
+          <div class="userInfoContainer">
+          <label class="name">Name</label>
+          <br/>
+          <input type="text" name="name" id="name" placeholder="username">
+          <br/>
+          <label class="email">Email</label>
+          <br/>
+          <input type="email" name="email" id="email" placeholder="example@domain.com">
+          <br/>
+          <label class="password">Password</label>
+          <br/>
+          <input type="password" name="password" id="password" placeholder="password">
+          <br/>
+          <label class="password">Confirm Password</label>
+          <br/>
+          <input type="password" name="cpassword" id="cpassword" placeholder="password">
+          <input type="submit" value="Sign Up">
+          <br/>
+          <br/>
+          <scan id=preLogInBtn>Have an account?</scan>
+          <a href="login.html" id="logInBtn">Log In</a>
+        </form>
+    </div>
+  </body>
+</html>
